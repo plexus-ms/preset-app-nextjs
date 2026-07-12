@@ -6,7 +6,7 @@ tenant:
   type: str
   help: "Tenant slug (URL-friendly)"
   placeholder: "acme-corp"
-pkg-name:
+name:
   type: str
   help: "App name (for package.json)"
   placeholder: "@acme-corp/foo"
