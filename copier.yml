@@ -2,7 +2,11 @@ _subdirectory: template
 _skip_if_exists:
   - package.json
 
-name:
+tenant:
+  type: str
+  help: "Tenant slug (URL-friendly)"
+  placeholder: "acme-corp"
+pkg-name:
   type: str
   help: "App name (for package.json)"
   placeholder: "@acme-corp/foo"
