@@ -1,6 +1,4 @@
 _subdirectory: template
-_skip_if_exists:
-  - package.json
 
 tenant:
   type: str
