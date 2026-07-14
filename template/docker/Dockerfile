@@ -45,4 +45,5 @@ COPY --from=builder --chown=node:node /repo/apps/${APP}/.next/static ./apps/${AP
 WORKDIR /repo/apps/${APP}
 USER node
 EXPOSE 3000
+ENV HOSTNAME=0.0.0.0
 ENTRYPOINT ["node", "server.js"]
