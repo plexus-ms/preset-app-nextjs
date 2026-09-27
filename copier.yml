@@ -8,3 +8,10 @@ name:
   type: str
   help: "App name (for package.json)"
   placeholder: "@acme-corp/foo"
+profile:
+  type: str
+  help: "App contract profile (§ 6 PLX)"
+  choices:
+    - stateless-app
+    - stateful-app
+  default: stateless-app
