@@ -10,7 +10,7 @@ name:
   placeholder: "@acme-corp/foo"
 profile:
   type: str
-  help: "App contract profile (§ 6 PLX)"
+  help: "App contract profile (§ 5.2 PLX): the module the app declares, PLX-Stateless or PLX-Stateful"
   choices:
     - stateless-app
     - stateful-app
