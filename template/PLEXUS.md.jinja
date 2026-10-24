@@ -1,4 +1,4 @@
 ---
 plexus: {{ _copier_answers._commit }}
-modules: [PLX-App, {% if profile == "stateful-app" %}PLX-Stateful{% else %}PLX-Stateless{% endif %}, PLX-Deploy]
+modules: [PLX-App, {% if profile == "stateful-app" %}PLX-AppStateful{% else %}PLX-AppStateless{% endif %}, PLX-Deploy]
 ---
